@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\modules">
+      <UniqueIdentifier>{d5e9a005-6945-4523-9cc6-c445667f4198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\tokens">
+      <UniqueIdentifier>{39df0206-fa53-4a51-a769-e214f8aa1549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\modules">
+      <UniqueIdentifier>{9c21797c-d256-4e45-821f-6697d9c5ec75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\errors">
+      <UniqueIdentifier>{9aa90044-5d3b-4260-817a-c87c55321ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\errors">
+      <UniqueIdentifier>{132418ad-3bcd-429a-96cd-5d7d7f0ddc86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\tokens">
+      <UniqueIdentifier>{673a7507-427d-4671-adfd-c680d719cb91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CError.cpp">
+      <Filter>Исходные файлы\errors</Filter>
+    </ClCompile>
+    <ClCompile Include="CErrorManager.cpp">
+      <Filter>Исходные файлы\errors</Filter>
+    </ClCompile>
+    <ClCompile Include="CErrorPrinter.cpp">
+      <Filter>Исходные файлы\errors</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexic.cpp">
+      <Filter>Исходные файлы\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Semantic.cpp">
+      <Filter>Исходные файлы\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Syntax.cpp">
+      <Filter>Исходные файлы\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="CToken.cpp">
+      <Filter>Исходные файлы\tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="CVariant.cpp">
+      <Filter>Исходные файлы\tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="CTokenFactory.cpp">
+      <Filter>Исходные файлы\tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="CTypes.cpp">
+      <Filter>Исходные файлы\tokens</Filter>
+    </ClCompile>
+    <ClCompile Include="ToLowerStr.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CError.h">
+      <Filter>Файлы заголовков\errors</Filter>
+    </ClInclude>
+    <ClInclude Include="CErrorManager.h">
+      <Filter>Файлы заголовков\errors</Filter>
+    </ClInclude>
+    <ClInclude Include="CErrorPrinter.h">
+      <Filter>Файлы заголовков\errors</Filter>
+    </ClInclude>
+    <ClInclude Include="CTypes.h">
+      <Filter>Файлы заголовков\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexic.h">
+      <Filter>Файлы заголовков\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Semantic.h">
+      <Filter>Файлы заголовков\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="CToken.h">
+      <Filter>Файлы заголовков\tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="CTokenFactory.h">
+      <Filter>Файлы заголовков\tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="CVariant.h">
+      <Filter>Файлы заголовков\tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="CCompiler.h">
+      <Filter>Файлы заголовков\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ToLowerStr.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

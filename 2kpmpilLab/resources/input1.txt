@@ -1,0 +1,17 @@
+PROGRAM nod(f1);
+VAR 
+	res, a, b, c:integer;//нормальный комментарий
+	t:char;
+BEGIN
+	a:= 60 div 2 + 5 * 3;
+	b:=100-10;
+	while (a<>0) and (b<>0) do
+		if a>b then
+			a:=a mod b
+		else 
+			b:=b mod a;
+	res:= a+b;{многострочный комментарий 
+который закрыт}
+	t:= '3' ;{многострочный комментарий 
+который не закрыт}
+END.
